@@ -2,7 +2,6 @@ package com.example.revchap5.model
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider.NewInstanceFactory.Companion.instance
 import com.example.revchap5.services.MovieApiService
 import retrofit2.Call
 import retrofit2.Callback

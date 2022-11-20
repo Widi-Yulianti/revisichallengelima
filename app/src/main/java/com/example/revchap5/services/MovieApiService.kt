@@ -5,13 +5,15 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class MovieApiService {
 
-    private val BASE_URL = "https://api.themoviedb.org"
-    val instance : MovieApiInterface by lazy {
-        val retrofit = Retrofit.Builder()
-            .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl(BASE_URL)
-            .build()
+    companion object {
+        private const val BASE_URL = "https://api.themoviedb.org"
+        val instance : MovieApiInterface by lazy {
+            val retrofit = Retrofit.Builder()
+                .addConverterFactory(GsonConverterFactory.create())
+                .baseUrl(Companion.BASE_URL)
+                .build()
 
-        retrofit.create(MovieApiInterface::class.java)
+            retrofit.create(MovieApiInterface::class.java)
+        }
     }
 }
