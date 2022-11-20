@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">revchap5</string>
+    <string name="movie">Movie</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="name">Nama</string>
+    <string name="login">Masuk</string>
+    <string name="password">Kata Sandi</string>
+    <string name="sign_up">Daftar</string>
+    <string name="repeat_password">Ulangi Kata Sandi</string>
+    <string name="my_profile">Profil Saya</string>
+    <string name="age">Usia</string>
+    <string name="address">Alamat</string>
+    <string name="email">Masukan Email</string>
+    <string name="fullname">Masukan Nama Lengkap</string>
+    <string name="akun_name">Nama</string>
+    <string name="akun_fullname">Nama Lengkap</string>
+    <string name="akun_email" translatable="false">Email</string>
+    <string name="akun_pass">Kata Sandi</string>
+    <string name="profile">Profile</string>
+    <string name="hello">Hello</string>
+    <string name="update">Perbarui</string>
+    <string name="logout">Keluar</string>
+    <string name="back" translatable="false">Kembali</string>
+    <string name="base_url">https://api.themoviedb.org/</string>
+    <string name="api_key">a7277104db9a560b6ef87a030fa6d069</string>
+</resources>

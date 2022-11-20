@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">revchap5</string>
+    <string name="movie">Movie</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="my_profile">My Profile</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="email">Input Email</string>
+    <string name="fullname">Input Fullname</string>
+    <string name="akun_name">Name</string>
+    <string name="akun_fullname">Fullname</string>
+    <string name="akun_email" translatable="false">Email</string>
+    <string name="akun_pass">Password</string>
+    <string name="profile">Profile</string>
+    <string name="hello">Hallo</string>
+    <string name="update">UPDATE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="back" translatable="false">Back</string>
+    <string name="base_url">https://api.themoviedb.org/</string>
+    <string name="api_key">a7277104db9a560b6ef87a030fa6d069</string>
+</resources>
