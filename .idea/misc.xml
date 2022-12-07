@@ -7,6 +7,8 @@
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/drawable/ic_baseline_account_circle_20.xml" value="0.1375" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1375" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/font/almendra_sc.xml" value="0.234375" />
+        <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/font/poppins_medium.xml" value="0.109375" />
+        <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/font/roboto_medium.xml" value="0.109375" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/activity_detail.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/activity_login.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/activity_main.xml" value="0.2" />
@@ -15,6 +17,7 @@
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/activity_profile.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/fragment_account.xml" value="0.22" />
+        <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/fragment_detail.xml" value="0.1721014492753623" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/fragment_detail_movie.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/fragment_home.xml" value="0.21" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/fragment_login.xml" value="0.16032608695652173" />
@@ -28,6 +31,7 @@
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/movie_item.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/layout/toolbar_home.xml" value="0.25" />
         <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/menu/menu_bottom.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YULLY/AndroidStudioProjects/revchap5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1385" />
       </map>
     </option>
   </component>

@@ -32,10 +32,10 @@ class HomeFragment : Fragment() {
     fun showDataMoviePopoular() {
         val viewModel = ViewModelProvider(this).get(MovieViewModel::class.java)
         viewModel.callApiPopularMovie{movies: List<Movie> ->
-            binding.rvMovie1.adapter = MovieAdapter(movies)
+            binding.rvMoviesList.adapter = MovieAdapter(movies)
         }
-        binding.rvMovie1.layoutManager = LinearLayoutManager(this.requireActivity(),LinearLayoutManager.HORIZONTAL,false)
-        binding.rvMovie1.setHasFixedSize(true)
+        binding.rvMoviesList.layoutManager = LinearLayoutManager(this.requireActivity(),LinearLayoutManager.HORIZONTAL,false)
+        binding.rvMoviesList.setHasFixedSize(true)
     }
 
 }

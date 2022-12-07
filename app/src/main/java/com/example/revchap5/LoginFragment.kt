@@ -43,7 +43,7 @@ class LoginFragment : Fragment() {
                 addData.putString("_username", _username)
                 addData.putString("_password", _password)
                 addData.apply()
-                findNavController().navigate(R.id.action_loginFragment_to_movieActivity)
+                findNavController().navigate(R.id.action_loginFragment_to_homeFragment2)
             }
             else {
                 Toast.makeText(
@@ -72,7 +72,7 @@ class LoginFragment : Fragment() {
 
         Handler(Looper.myLooper()!!).postDelayed({
             if(username != null)
-                findNavController().navigate(R.id.action_loginFragment_to_movieActivity)
+                findNavController().navigate(R.id.action_loginFragment_to_homeFragment2)
         },1000)
     }
 
