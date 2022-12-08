@@ -38,8 +38,8 @@ class ProfileFragment : Fragment() {
         var password = sharedPref.getString("password", null).toString()
 
         binding.apply {
-            dataEdit = User(username, name, email, password)
-            binding.btnEdit.setOnClickListener(){
+            var dataEdit = User(username, name, email, password)
+            binding.btnUpdate.setOnClickListener(){
                 username = binding.edtUsername.text.toString()
                 name = binding.edtName.text.toString()
                 email = binding.edtEmail.text.toString()
@@ -50,9 +50,18 @@ class ProfileFragment : Fragment() {
                 addData.putString("email", email)
                 addData.apply()
                 Toast.makeText(requireContext(), "Data Save", Toast.LENGTH_SHORT).show()
-                findNavController().navigate(R.id.action_profileFragment_to_accountFragment)
+                findNavController().navigate(R.id.action_profileFragment_to_homeFragment2)
             }
 
+        }
+
+        binding.btnLogout.setOnClickListener(){
+            sharedPref = requireActivity().getSharedPreferences("registerData", Context.MODE_PRIVATE)
+            var addData = sharedPref.edit()
+            addData.putString("_username", null)
+            addData.putString("_password", null)
+            addData.apply()
+            findNavController().navigate(R.id.action_profileFragment_to_loginFragment)
         }
     }
 }

@@ -12,8 +12,11 @@
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
-            android:id="@+id/action_profileFragment_to_accountFragment"
-            app:destination="@id/accountFragment" />
+            android:id="@+id/action_profileFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -38,18 +41,6 @@
             app:destination="@id/loginFragment" />
     </fragment>
     <fragment
-        android:id="@+id/accountFragment"
-        android:name="com.example.revchap5.AccountFragment"
-        android:label="fragment_account"
-        tools:layout="@layout/fragment_account" >
-        <action
-            android:id="@+id/action_accountFragment_to_profileFragment"
-            app:destination="@id/profileFragment" />
-        <action
-            android:id="@+id/action_accountFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.revchap5.DetailFragment"
         android:label="fragment_detail_movie"
@@ -62,6 +53,9 @@
         <action
             android:id="@+id/action_homeFragment2_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
 
 </navigation>

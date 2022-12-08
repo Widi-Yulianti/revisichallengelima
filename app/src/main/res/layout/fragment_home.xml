@@ -32,6 +32,30 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical" >
 
+
+                        <TextView
+                            android:id="@+id/tv_sayHello"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:text="Welcome, User"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                        <ImageView
+                            android:id="@+id/btnProfil"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="300dp"
+                            android:layout_marginLeft="300dp"
+                            android:layout_marginEnd="24dp"
+                            android:src="@drawable/ic_baseline_person_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
                         <TextView
                             android:id="@+id/textView"
                             android:layout_width="wrap_content"
@@ -55,21 +79,12 @@
                         <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/rv_movies_list"
                             android:layout_width="match_parent"
-                            android:layout_height="579dp"
+                            android:layout_height="581dp"
                             android:layout_marginTop="16dp" />
 
-                        <com.google.android.material.bottomnavigation.BottomNavigationView
-                            android:id="@+id/nav_view"
-                            android:layout_width="match_parent"
-                            android:layout_height="77dp"
-                            android:background="@color/black"
-                            app:itemIconTint="@color/color_bottom_nav"
-                            app:itemTextColor="@color/white"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:menu="@menu/menu_bottom" />
                     </LinearLayout>
+
+
 
                 </androidx.core.widget.NestedScrollView>
 

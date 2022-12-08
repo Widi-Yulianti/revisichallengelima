@@ -83,7 +83,6 @@ class LoginFragment : Fragment() {
         val conf = res.configuration
         conf.locale = myLocale
         res.updateConfiguration(conf, res.displayMetrics)
-
-        //startActivity(Intent(this, LoginActivity::class.java))
+        findNavController().navigate(R.id.loginFragment)
     }
 }
